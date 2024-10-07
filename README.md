@@ -1,6 +1,8 @@
-Expenses Tracker 
+# Expenses Tracker
 
-This is website that helps you to track you expenses 
-For frontend I'm using React and Tailwind .
-And for backend I'm using Firebase 
-This project I mainly create to learn about Firebase Authentication & Firebase DB. 
+**A user-friendly web application to help you track your expenses.**
+
+**Technologies Used:**
+
+* **Frontend:** React, Tailwind CSS
+* **Backend:** Firebase

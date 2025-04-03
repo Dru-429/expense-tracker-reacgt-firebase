@@ -26,7 +26,7 @@ const Auth = () => {
     if(isAuth) {
         return  navigate('/expense-tracker')
     }
-
+   
     return (
         <div>
             <p className='bg-red-500'>Sign in with google to continue</p>

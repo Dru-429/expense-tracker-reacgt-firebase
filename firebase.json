@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site": "expense-tracker-dru",
-    "public": "build",
+    "site": "dru-expense-tracker",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",

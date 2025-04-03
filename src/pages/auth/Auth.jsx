@@ -6,7 +6,6 @@ import useGetUserInfo from '../../hooks/useGetUserInfo'
 
 const Auth = () => {
     
-    const Navigate = navigate()
     const navigate = useNavigate()
     const {isAuth} = useGetUserInfo()
 
@@ -25,7 +24,7 @@ const Auth = () => {
     }
 
     if(isAuth) {
-        return <Navigate to="/expense-tracker" />
+        return  navigate('/expense-tracker')
     }
 
     return (
